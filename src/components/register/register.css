@@ -1,0 +1,54 @@
+/* Login.css and Register.css */
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    max-width: 500px;
+    /* Limit the maximum width */
+    height: auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.register h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+.register .button {
+    background: #1877f2;
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register .button:hover {
+    background: #145c9e;
+}
+
+
+.register .button,
+.register .button:hover {
+    width: 100%;
+    
+}
